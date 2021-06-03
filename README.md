@@ -1,7 +1,17 @@
 
 # Selective Knowledge Distillation for Neural Machine Translation
+This is the PyTorch implementation of paper: **[Selective Knowledge Distillation for Neural Machine Translation (ACL2021)](<https://arxiv.org/abs/2105.12967>)**. 
 
-We carry out our experiments on standard Transformer with the  [fairseq](https://github.com/pytorch/fairseq) toolkit.
+We carry out our experiments on standard Transformer with the  [fairseq](https://github.com/pytorch/fairseq) toolkit. If you use any source code included in this repo in your work, please cite the following paper.
+
+```
+@article{wang2021selective,
+  title={Selective Knowledge Distillation for Neural Machine Translation},
+  author={Wang, Fusheng and Yan, Jianhao and Meng, Fandong and Zhou, Jie},
+  journal={arXiv preprint arXiv:2105.12967},
+  year={2021}
+}
+```
 
 
 ## Runtime Environment
